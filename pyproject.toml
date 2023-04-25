@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "diploma"
+version = "0.1.0"
+description = ""
+authors = ["geflex <geflikh.d.s@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+dtcwt = "^0.12.0"
+numpy = "*"  # needed for `emd`
+scipy = "^1.8.0"
+PyWavelets = "^1.3.0"
+jupyterlab = "^3.3.4"
+matplotlib = "^3.5.1"
+torch = "^1.11.0"
+torchvision = "^0.12.0"
+torchaudio = "^0.11.0"
+pytorch_wavelets = { git = "https://github.com/fbcotter/pytorch_wavelets" }
+ewtpy = "^0.2"
+emd = "^0.5.3"
+scikit-learn = "^1.0.2"
+ssqueezepy = "^0.6.3"
+seaborn = "^0.11.2"
+pandas = "^1.4.2"
+pyqtgraph = "^0.12.4"
+PyQt6 = "^6.3.0"
+tensorflow = "^2.8.0"
+grpcio = "<=1.46.0"  # Needed due to an error: Unable to find installation candidates for grpcio (1.46.1)
+pyaudio = {path = "dev/PyAudio-0.2.11-cp39-cp39-win_amd64.whl"}
+sounddevice = "^0.4.4"
+librosa = "^0.9.1"
+pyinstaller = "^5.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pylama = {extras = ["all"], version = "^8.3.8"}
+pyinstaller = "^5.1"
+pytest-qt = "^4.0.2"
+pytest-lazy-fixture = "^0.6.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

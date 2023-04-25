@@ -1,0 +1,13 @@
+{
+  "microphone": true,
+  "display": true,
+  "classify": true,
+  "model_path": "D:/Documents/Code/Python/diploma/__presentation__/model2.h5",
+  "model_config_path": "D:/Documents/Code/Python/diploma/__presentation__/model2.json",
+  "max_pieces": 0,
+  "pieces_per_file": 0,
+  "filenames": [
+    "D:/Documents/Code/Python/diploma/__presentation__/5_500_10_2.wav"
+  ],
+  "_filename_template": "D:\\Documents\\Code\\Python\\diploma\\data\\rec\\{}.wav"
+}

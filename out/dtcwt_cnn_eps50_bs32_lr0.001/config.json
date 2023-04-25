@@ -1,0 +1,23 @@
+{
+    "feature": {
+        "_type_": "dtcwt",
+        "levels": 7,
+        "fragment_len": 1024,
+        "include_original": true,
+        "include_cj": false,
+        "biort": "near_sym_a",
+        "qshift": "qshift_a"
+    },
+    "classnames": [
+        "healthy",
+        "missing",
+        "crack",
+        "spall",
+        "chip5a",
+        "chip4a",
+        "chip3a",
+        "chip2a",
+        "chip1a"
+    ],
+    "fs": 20000
+}

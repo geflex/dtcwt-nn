@@ -1,0 +1,1 @@
+https://engineering.case.edu/bearingdatacenter/download-data-file

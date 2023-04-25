@@ -1,0 +1,1 @@
+Article: End-To-End Convolutional Neural Network Model for Gear Fault Diagnosis Based on Sound Signals (2018)

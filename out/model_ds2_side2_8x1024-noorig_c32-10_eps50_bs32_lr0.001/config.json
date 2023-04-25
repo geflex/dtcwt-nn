@@ -1,0 +1,21 @@
+{
+    "feature": {
+        "_type_": "dtcwt",
+        "levels": 8,
+        "fragment_len": 1024,
+        "include_original": false,
+        "biort": "near_sym_a",
+        "qshift": "qshift_a"
+    },
+    "classnames": [
+        "5_1500_10",
+        "5_1500_20",
+        "5_500_10",
+        "5_500_20",
+        "6_1500_10",
+        "6_1500_20",
+        "6_500_10",
+        "6_500_20"
+    ],
+    "fs": 25000
+}
